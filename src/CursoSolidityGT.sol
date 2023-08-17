@@ -71,6 +71,8 @@ contract CursoSolidityGT {
      */
     receive() external payable {}
 
+    fallback() external payable {}
+
     /**
      * @notice Función para inscribir a participantes
      * @dev cada participante tiene que llamar a esta función para ser aceptado
